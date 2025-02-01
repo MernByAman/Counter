@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="media/countdown.png">
+  </head>
+  <body class="bg-gray-900">
+    <h1 class="text-7xl text-white text-center font-bold my-10"><a href="https://github.com/MernByAman" target="_blank">Counter</a></h1>
+    <hr class="bg-gray-100 cursor-default pointer-events-none" />
+    <div
+      class="text-9xl cursor-default pointer-events-none mx-auto shadow-md py-8 pt-6 font-mono text-white w-min h-min px-14 border-2 border-gray-100 border-opacity-25 bg-blue-800 rounded-full font-semibold my-24"
+      id="counter"
+    >
+      0
+    </div>
+
+    <div class="flex justify-evenly">
+      <button
+        class="bg-green-500 text-white font-bold px-8 py-4 rounded-full my-20 hover:bg-green-900 ease-out duration-500 hover:shadow-xl hover:scale-110 border-2 border-white border-opacity-20"
+        id="increment"
+      >
+        INCREMENT
+      </button>
+      <button
+        class="bg-red-500 text-white font-bold px-8 py-4 border-2 border-white border-opacity-20 rounded-full my-20 hover:bg-red-900 ease-out duration-500 hover:shadow-xl hover:scale-110"
+        id="decrement"
+      >
+        DECREMENT
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
